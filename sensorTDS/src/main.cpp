@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 /***************************************************
  DFRobot Gravity: Analog TDS Sensor / Meter For Arduino
  <https://www.dfrobot.com/wiki/index.php/Gravity:_Analog_TDS_Sensor_/_Meter_For_Arduino_SKU:_SEN0244>
@@ -15,7 +13,7 @@
  1. This code is tested on Arduino Uno and Leonardo with Arduino IDE 1.0.5 r2 and 1.8.2.
  2. More details, please click this link: <https://www.dfrobot.com/wiki/index.php/Gravity:_Analog_TDS_Sensor_/_Meter_For_Arduino_SKU:_SEN0244>
  ****************************************************/
-
+#include <Arduino.h>
 #define TdsSensorPin A1
 #define VREF 5.0      // analog reference voltage(Volt) of the ADC
 #define SCOUNT  30           // sum of sample point
